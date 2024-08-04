@@ -1,0 +1,8 @@
+USE alx_book_store;
+
+DESC books;
+
+SELECT INFORMATION_SCHEMA.COLUMNS, COLUMN_NAME, COLUMN_TYPE
+FROM TABLE_SCHEMA = 'alx_book_store'
+WHERE
+    TABLE_NAME = 'Books'
